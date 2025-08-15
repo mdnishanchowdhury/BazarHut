@@ -14,18 +14,18 @@ function Catagory() {
     }, []);
 
     return (
-        <div className="mt-12">
+        <div className="mt-12 font-inter">
             <Swiper
                 modules={[Pagination]}
                 spaceBetween={10}
                 pagination={{ clickable: true }}
                 className="catagorySwiper"
                 breakpoints={{
-                    0: { slidesPerView: 4, spaceBetween: 8 },    
-                    480: { slidesPerView: 5, spaceBetween: 10 }, 
-                    768: { slidesPerView: 6, spaceBetween: 12 }, 
-                    1024: { slidesPerView: 7, spaceBetween: 15 }, 
-                    1280: { slidesPerView: 9, spaceBetween: 10 }  
+                    0: { slidesPerView: 4, spaceBetween: 8 },
+                    480: { slidesPerView: 5, spaceBetween: 10 },
+                    768: { slidesPerView: 6, spaceBetween: 12 },
+                    1024: { slidesPerView: 7, spaceBetween: 15 },
+                    1280: { slidesPerView: 9, spaceBetween: 10 }
                 }}
             >
                 {catagory.map(item => (

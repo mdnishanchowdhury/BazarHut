@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { MdOutlineMenu, MdSearch, MdFavorite, MdShoppingCart } from "react-icons/md";
-
+import Avatar from "./Avatar";
 function Navbar() {
+  const linkClass = "text-[15px] font-semibold transition-all duration-300 hover:text-blue-600 hover:translate-y-[-2px]";
   const [isFixed, setFixed] = useState(false);
-  const [menuOpen, setMenuOpen] = useState(false); // mobile menu toggle
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [catagory, setCatagory] = useState([]);
 
   useEffect(() => {
     const handleScroll = () => setFixed(window.scrollY > 50);
@@ -12,21 +14,36 @@ function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  //catagory
+  useEffect(() => {
+    fetch('/catagory.json')
+      .then(res => res.json())
+      .then(data => setCatagory(data));
+  }, []);
+
   const links = (
     <>
-      <li><Link to="/">Home</Link></li>
-      <li><Link to="/category">Category</Link></li>
-      <li><Link to="/blog">Blog</Link></li>
-      <li><Link to="/contact">Contact</Link></li>
-      <li><Link to="/trending">Trending Products</Link></li>
+      <Link className={linkClass} to="/">Home</Link>
+      <li className="relative group">
+        <span className={linkClass}>Categories</span>
+        <ul className="absolute left-0 top-full hidden group-hover:block bg-white p-2 rounded shadow-lg min-w-[200px] z-50">
+          {catagory.map(item => (
+            <li key={item.id}>
+              <Link to={`/category/${item.id}`} className="block px-2 py-1 hover:bg-gray-100">{item.name}</Link>
+            </li>
+          ))}
+        </ul>
+      </li>
+      <li><Link className={linkClass} to="/blog">Blog</Link></li>
+      <li><Link className={linkClass} to="/contact">Contact</Link></li>
+      <li><Link className={linkClass} to="/trending">Trending Products</Link></li>
     </>
   );
 
   return (
     <div
-      className={`w-full border-y-1 border-gray-200 transition-all duration-300 bg-white font-inter ${
-        isFixed ? "fixed top-0 left-0 z-50 mt-0" : "relative"
-      }`}
+      className={`w-full border-y-1 border-gray-200 transition-all duration-300 bg-white font-inter ${isFixed ? "fixed top-0 left-0 z-50 mt-0" : "relative"
+        }`}
     >
       <div className="h-16 flex items-center justify-between px-4 md:px-20">
         {/* Navbar start */}
@@ -56,16 +73,7 @@ function Navbar() {
           </div>
 
           {/* Avatar dropdown */}
-          <div className="dropdown dropdown-end">
-            <div tabIndex={0} className="w-10 rounded-full cursor-pointer overflow-hidden">
-              <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" alt="avatar" />
-            </div>
-            <ul tabIndex={0} className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52 mt-2">
-              <li><a>Profile</a></li>
-              <li><a>Settings</a></li>
-              <li><a>Logout</a></li>
-            </ul>
-          </div>
+          <Avatar></Avatar>
         </div>
       </div>
 
