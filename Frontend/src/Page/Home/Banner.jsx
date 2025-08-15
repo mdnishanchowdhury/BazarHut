@@ -49,7 +49,7 @@ function Banner() {
                         className="h-[560px] bg-cover bg-center relative flex items-center px-6"
                         style={{ backgroundImage: `url(${slide.image})` }}
                     >
-                        <div className="relative w-[580px] text-black justify-evenly px-13">
+                        <div className="relative w-[580px] text-black justify-evenly px-6 md:px-13">
                             <h2 className="mb-5 text-5xl font-bold">{slide.title}</h2>
                             <p className="mb-5">{slide.description}</p>
 

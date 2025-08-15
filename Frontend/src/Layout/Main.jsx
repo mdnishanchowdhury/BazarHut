@@ -10,7 +10,6 @@ function Main() {
         <NotificationBar></NotificationBar>
          <Nav></Nav>
         <Navbar></Navbar>
-       
         <Outlet></Outlet>
         <Footer></Footer>
     </div>

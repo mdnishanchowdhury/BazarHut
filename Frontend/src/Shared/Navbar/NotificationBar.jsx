@@ -34,7 +34,7 @@ function NotificationBar() {
   return (
     <div className="bg-[#634C9F] w-full h-14 md:h-10 flex flex-col md:flex-row md:items-center justify-center md:justify-between px-4 md:px-96  text-white text-xs">
       {/* Left side text */}
-      <span className="text-xs font-semibold font-inter text-center md:text-left mb-1 md:mb-0">
+      <span className="text-[10px] md:text-xs font-semibold font-inter text-center md:text-left mb-1 md:mb-0">
         FREE delivery & 40% Discount for next 3 orders! Place your 1st order in.
       </span>
 
