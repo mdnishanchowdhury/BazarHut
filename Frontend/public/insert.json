@@ -1,0 +1,704 @@
+[
+  {
+    "name": "Product 1 – Breakfast",
+    "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
+    "discount": "2",
+    "rating": 3.6,
+    "reviewsCount": 3,
+    "price": 610,
+    "category": "Breakfast & Dairy",
+    "quantity": "0",
+    "summary": {
+      "shortDescription": "This is a short description for Product 1 – Breakfast."
+    },
+    "details": {
+      "description": "This is a detailed description for Product 1 – Breakfast. Quality assured.",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/8/8a/Banana-Single.jpg"
+      ],
+      "specialOfferCountdown": [
+        "03",
+        "05",
+        "07",
+        "11"
+      ],
+      "paymentInfo": "Cash on delivery, Google Pay, Online card",
+      "warrantyInfo": "No warranty; proper-quality products."
+    }
+  },
+  {
+    "name": "Product 2 – Breakfast",
+    "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
+    "discount": "3",
+    "rating": 3.7,
+    "reviewsCount": 6,
+    "price": 620,
+    "category": "Breakfast & Dairy",
+    "quantity": "0",
+    "summary": {
+      "shortDescription": "This is a short description for Product 2 – Breakfast."
+    },
+    "details": {
+      "description": "This is a detailed description for Product 2 – Breakfast. Quality assured.",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/8/8a/Banana-Single.jpg"
+      ],
+      "specialOfferCountdown": [
+        "06",
+        "10",
+        "14",
+        "22"
+      ],
+      "paymentInfo": "Cash on delivery, Google Pay, Online card",
+      "warrantyInfo": "No warranty; proper-quality products."
+    }
+  },
+  {
+    "name": "Product 3 – Breakfast",
+    "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
+    "discount": "4",
+    "rating": 3.8,
+    "reviewsCount": 9,
+    "price": 630,
+    "category": "Breakfast & Dairy",
+    "quantity": "0",
+    "summary": {
+      "shortDescription": "This is a short description for Product 3 – Breakfast."
+    },
+    "details": {
+      "description": "This is a detailed description for Product 3 – Breakfast. Quality assured.",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/8/8a/Banana-Single.jpg"
+      ],
+      "specialOfferCountdown": [
+        "09",
+        "15",
+        "21",
+        "33"
+      ],
+      "paymentInfo": "Cash on delivery, Google Pay, Online card",
+      "warrantyInfo": "No warranty; proper-quality products."
+    }
+  },
+  {
+    "name": "Product 4 – Breakfast",
+    "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
+    "discount": "5",
+    "rating": 3.9,
+    "reviewsCount": 12,
+    "price": 640,
+    "category": "Breakfast & Dairy",
+    "quantity": "0",
+    "summary": {
+      "shortDescription": "This is a short description for Product 4 – Breakfast."
+    },
+    "details": {
+      "description": "This is a detailed description for Product 4 – Breakfast. Quality assured.",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/8/8a/Banana-Single.jpg"
+      ],
+      "specialOfferCountdown": [
+        "12",
+        "20",
+        "28",
+        "44"
+      ],
+      "paymentInfo": "Cash on delivery, Google Pay, Online card",
+      "warrantyInfo": "No warranty; proper-quality products."
+    }
+  },
+  {
+    "name": "Product 5 – Breakfast",
+    "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
+    "discount": "6",
+    "rating": 3.5,
+    "reviewsCount": 15,
+    "price": 650,
+    "category": "Breakfast & Dairy",
+    "quantity": "0",
+    "summary": {
+      "shortDescription": "This is a short description for Product 5 – Breakfast."
+    },
+    "details": {
+      "description": "This is a detailed description for Product 5 – Breakfast. Quality assured.",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/8/8a/Banana-Single.jpg"
+      ],
+      "specialOfferCountdown": [
+        "15",
+        "01",
+        "35",
+        "55"
+      ],
+      "paymentInfo": "Cash on delivery, Google Pay, Online card",
+      "warrantyInfo": "No warranty; proper-quality products."
+    }
+  },
+  {
+    "name": "Product 6 – Breakfast",
+    "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
+    "discount": "7",
+    "rating": 3.6,
+    "reviewsCount": 18,
+    "price": 660,
+    "category": "Breakfast & Dairy",
+    "quantity": "0",
+    "summary": {
+      "shortDescription": "This is a short description for Product 6 – Breakfast."
+    },
+    "details": {
+      "description": "This is a detailed description for Product 6 – Breakfast. Quality assured.",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/8/8a/Banana-Single.jpg"
+      ],
+      "specialOfferCountdown": [
+        "18",
+        "06",
+        "42",
+        "06"
+      ],
+      "paymentInfo": "Cash on delivery, Google Pay, Online card",
+      "warrantyInfo": "No warranty; proper-quality products."
+    }
+  },
+  {
+    "name": "Product 7 – Breakfast",
+    "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
+    "discount": "8",
+    "rating": 3.7,
+    "reviewsCount": 21,
+    "price": 670,
+    "category": "Breakfast & Dairy",
+    "quantity": "0",
+    "summary": {
+      "shortDescription": "This is a short description for Product 7 – Breakfast."
+    },
+    "details": {
+      "description": "This is a detailed description for Product 7 – Breakfast. Quality assured.",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/8/8a/Banana-Single.jpg"
+      ],
+      "specialOfferCountdown": [
+        "21",
+        "11",
+        "49",
+        "17"
+      ],
+      "paymentInfo": "Cash on delivery, Google Pay, Online card",
+      "warrantyInfo": "No warranty; proper-quality products."
+    }
+  },
+  {
+    "name": "Product 8 – Breakfast",
+    "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
+    "discount": "9",
+    "rating": 3.8,
+    "reviewsCount": 24,
+    "price": 680,
+    "category": "Breakfast & Dairy",
+    "quantity": "0",
+    "summary": {
+      "shortDescription": "This is a short description for Product 8 – Breakfast."
+    },
+    "details": {
+      "description": "This is a detailed description for Product 8 – Breakfast. Quality assured.",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/8/8a/Banana-Single.jpg"
+      ],
+      "specialOfferCountdown": [
+        "24",
+        "16",
+        "56",
+        "28"
+      ],
+      "paymentInfo": "Cash on delivery, Google Pay, Online card",
+      "warrantyInfo": "No warranty; proper-quality products."
+    }
+  },
+  {
+    "name": "Product 9 – Breakfast",
+    "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
+    "discount": "10",
+    "rating": 3.9,
+    "reviewsCount": 27,
+    "price": 690,
+    "category": "Breakfast & Dairy",
+    "quantity": "0",
+    "summary": {
+      "shortDescription": "This is a short description for Product 9 – Breakfast."
+    },
+    "details": {
+      "description": "This is a detailed description for Product 9 – Breakfast. Quality assured.",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/8/8a/Banana-Single.jpg"
+      ],
+      "specialOfferCountdown": [
+        "27",
+        "21",
+        "03",
+        "39"
+      ],
+      "paymentInfo": "Cash on delivery, Google Pay, Online card",
+      "warrantyInfo": "No warranty; proper-quality products."
+    }
+  },
+  {
+    "name": "Product 10 – Breakfast",
+    "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
+    "discount": "11",
+    "rating": 3.5,
+    "reviewsCount": 30,
+    "price": 700,
+    "category": "Breakfast & Dairy",
+    "quantity": "0",
+    "summary": {
+      "shortDescription": "This is a short description for Product 10 – Breakfast."
+    },
+    "details": {
+      "description": "This is a detailed description for Product 10 – Breakfast. Quality assured.",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/8/8a/Banana-Single.jpg"
+      ],
+      "specialOfferCountdown": [
+        "30",
+        "02",
+        "10",
+        "50"
+      ],
+      "paymentInfo": "Cash on delivery, Google Pay, Online card",
+      "warrantyInfo": "No warranty; proper-quality products."
+    }
+  },
+  {
+    "name": "Product 11 – Breakfast",
+    "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
+    "discount": "12",
+    "rating": 3.6,
+    "reviewsCount": 33,
+    "price": 710,
+    "category": "Breakfast & Dairy",
+    "quantity": "0",
+    "summary": {
+      "shortDescription": "This is a short description for Product 11 – Breakfast."
+    },
+    "details": {
+      "description": "This is a detailed description for Product 11 – Breakfast. Quality assured.",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/8/8a/Banana-Single.jpg"
+      ],
+      "specialOfferCountdown": [
+        "33",
+        "07",
+        "17",
+        "01"
+      ],
+      "paymentInfo": "Cash on delivery, Google Pay, Online card",
+      "warrantyInfo": "No warranty; proper-quality products."
+    }
+  },
+  {
+    "name": "Product 12 – Breakfast",
+    "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
+    "discount": "13",
+    "rating": 3.7,
+    "reviewsCount": 36,
+    "price": 720,
+    "category": "Breakfast & Dairy",
+    "quantity": "0",
+    "summary": {
+      "shortDescription": "This is a short description for Product 12 – Breakfast."
+    },
+    "details": {
+      "description": "This is a detailed description for Product 12 – Breakfast. Quality assured.",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/8/8a/Banana-Single.jpg"
+      ],
+      "specialOfferCountdown": [
+        "36",
+        "12",
+        "24",
+        "12"
+      ],
+      "paymentInfo": "Cash on delivery, Google Pay, Online card",
+      "warrantyInfo": "No warranty; proper-quality products."
+    }
+  },
+  {
+    "name": "Product 13 – Breakfast",
+    "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
+    "discount": "14",
+    "rating": 3.8,
+    "reviewsCount": 39,
+    "price": 730,
+    "category": "Breakfast & Dairy",
+    "quantity": "0",
+    "summary": {
+      "shortDescription": "This is a short description for Product 13 – Breakfast."
+    },
+    "details": {
+      "description": "This is a detailed description for Product 13 – Breakfast. Quality assured.",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/8/8a/Banana-Single.jpg"
+      ],
+      "specialOfferCountdown": [
+        "39",
+        "17",
+        "31",
+        "23"
+      ],
+      "paymentInfo": "Cash on delivery, Google Pay, Online card",
+      "warrantyInfo": "No warranty; proper-quality products."
+    }
+  },
+  {
+    "name": "Product 14 – Breakfast",
+    "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
+    "discount": "15",
+    "rating": 3.9,
+    "reviewsCount": 42,
+    "price": 740,
+    "category": "Breakfast & Dairy",
+    "quantity": "0",
+    "summary": {
+      "shortDescription": "This is a short description for Product 14 – Breakfast."
+    },
+    "details": {
+      "description": "This is a detailed description for Product 14 – Breakfast. Quality assured.",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/8/8a/Banana-Single.jpg"
+      ],
+      "specialOfferCountdown": [
+        "42",
+        "22",
+        "38",
+        "34"
+      ],
+      "paymentInfo": "Cash on delivery, Google Pay, Online card",
+      "warrantyInfo": "No warranty; proper-quality products."
+    }
+  },
+  {
+    "name": "Product 15 – Breakfast",
+    "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
+    "discount": "16",
+    "rating": 3.5,
+    "reviewsCount": 45,
+    "price": 750,
+    "category": "Breakfast & Dairy",
+    "quantity": "0",
+    "summary": {
+      "shortDescription": "This is a short description for Product 15 – Breakfast."
+    },
+    "details": {
+      "description": "This is a detailed description for Product 15 – Breakfast. Quality assured.",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/8/8a/Banana-Single.jpg"
+      ],
+      "specialOfferCountdown": [
+        "45",
+        "03",
+        "45",
+        "45"
+      ],
+      "paymentInfo": "Cash on delivery, Google Pay, Online card",
+      "warrantyInfo": "No warranty; proper-quality products."
+    }
+  },
+  {
+    "name": "Product 16 – Breakfast",
+    "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
+    "discount": "17",
+    "rating": 3.6,
+    "reviewsCount": 48,
+    "price": 760,
+    "category": "Breakfast & Dairy",
+    "quantity": "0",
+    "summary": {
+      "shortDescription": "This is a short description for Product 16 – Breakfast."
+    },
+    "details": {
+      "description": "This is a detailed description for Product 16 – Breakfast. Quality assured.",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/8/8a/Banana-Single.jpg"
+      ],
+      "specialOfferCountdown": [
+        "48",
+        "08",
+        "52",
+        "56"
+      ],
+      "paymentInfo": "Cash on delivery, Google Pay, Online card",
+      "warrantyInfo": "No warranty; proper-quality products."
+    }
+  },
+  {
+    "name": "Product 17 – Breakfast",
+    "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
+    "discount": "18",
+    "rating": 3.7,
+    "reviewsCount": 1,
+    "price": 770,
+    "category": "Breakfast & Dairy",
+    "quantity": "0",
+    "summary": {
+      "shortDescription": "This is a short description for Product 17 – Breakfast."
+    },
+    "details": {
+      "description": "This is a detailed description for Product 17 – Breakfast. Quality assured.",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/8/8a/Banana-Single.jpg"
+      ],
+      "specialOfferCountdown": [
+        "51",
+        "13",
+        "59",
+        "07"
+      ],
+      "paymentInfo": "Cash on delivery, Google Pay, Online card",
+      "warrantyInfo": "No warranty; proper-quality products."
+    }
+  },
+  {
+    "name": "Product 18 – Breakfast",
+    "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
+    "discount": "19",
+    "rating": 3.8,
+    "reviewsCount": 4,
+    "price": 780,
+    "category": "Breakfast & Dairy",
+    "quantity": "0",
+    "summary": {
+      "shortDescription": "This is a short description for Product 18 – Breakfast."
+    },
+    "details": {
+      "description": "This is a detailed description for Product 18 – Breakfast. Quality assured.",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/8/8a/Banana-Single.jpg"
+      ],
+      "specialOfferCountdown": [
+        "54",
+        "18",
+        "06",
+        "18"
+      ],
+      "paymentInfo": "Cash on delivery, Google Pay, Online card",
+      "warrantyInfo": "No warranty; proper-quality products."
+    }
+  },
+  {
+    "name": "Product 19 – Breakfast",
+    "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
+    "discount": "20",
+    "rating": 3.9,
+    "reviewsCount": 7,
+    "price": 790,
+    "category": "Breakfast & Dairy",
+    "quantity": "0",
+    "summary": {
+      "shortDescription": "This is a short description for Product 19 – Breakfast."
+    },
+    "details": {
+      "description": "This is a detailed description for Product 19 – Breakfast. Quality assured.",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/8/8a/Banana-Single.jpg"
+      ],
+      "specialOfferCountdown": [
+        "57",
+        "23",
+        "13",
+        "29"
+      ],
+      "paymentInfo": "Cash on delivery, Google Pay, Online card",
+      "warrantyInfo": "No warranty; proper-quality products."
+    }
+  },
+  {
+    "name": "Product 20 – Breakfast",
+    "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
+    "discount": "1",
+    "rating": 3.5,
+    "reviewsCount": 10,
+    "price": 800,
+    "category": "Breakfast & Dairy",
+    "quantity": "0",
+    "summary": {
+      "shortDescription": "This is a short description for Product 20 – Breakfast."
+    },
+    "details": {
+      "description": "This is a detailed description for Product 20 – Breakfast. Quality assured.",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/8/8a/Banana-Single.jpg"
+      ],
+      "specialOfferCountdown": [
+        "00",
+        "04",
+        "20",
+        "40"
+      ],
+      "paymentInfo": "Cash on delivery, Google Pay, Online card",
+      "warrantyInfo": "No warranty; proper-quality products."
+    }
+  },
+  {
+    "name": "Product 21 – Breakfast",
+    "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
+    "discount": "2",
+    "rating": 3.6,
+    "reviewsCount": 13,
+    "price": 810,
+    "category": "Breakfast & Dairy",
+    "quantity": "0",
+    "summary": {
+      "shortDescription": "This is a short description for Product 21 – Breakfast."
+    },
+    "details": {
+      "description": "This is a detailed description for Product 21 – Breakfast. Quality assured.",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/8/8a/Banana-Single.jpg"
+      ],
+      "specialOfferCountdown": [
+        "03",
+        "09",
+        "27",
+        "51"
+      ],
+      "paymentInfo": "Cash on delivery, Google Pay, Online card",
+      "warrantyInfo": "No warranty; proper-quality products."
+    }
+  },
+  {
+    "name": "Product 22 – Breakfast",
+    "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
+    "discount": "3",
+    "rating": 3.7,
+    "reviewsCount": 16,
+    "price": 820,
+    "category": "Breakfast & Dairy",
+    "quantity": "0",
+    "summary": {
+      "shortDescription": "This is a short description for Product 22 – Breakfast."
+    },
+    "details": {
+      "description": "This is a detailed description for Product 22 – Breakfast. Quality assured.",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/8/8a/Banana-Single.jpg"
+      ],
+      "specialOfferCountdown": [
+        "06",
+        "14",
+        "34",
+        "02"
+      ],
+      "paymentInfo": "Cash on delivery, Google Pay, Online card",
+      "warrantyInfo": "No warranty; proper-quality products."
+    }
+  },
+  {
+    "name": "Product 23 – Breakfast",
+    "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
+    "discount": "4",
+    "rating": 3.8,
+    "reviewsCount": 19,
+    "price": 830,
+    "category": "Breakfast & Dairy",
+    "quantity": "0",
+    "summary": {
+      "shortDescription": "This is a short description for Product 23 – Breakfast."
+    },
+    "details": {
+      "description": "This is a detailed description for Product 23 – Breakfast. Quality assured.",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/8/8a/Banana-Single.jpg"
+      ],
+      "specialOfferCountdown": [
+        "09",
+        "19",
+        "41",
+        "13"
+      ],
+      "paymentInfo": "Cash on delivery, Google Pay, Online card",
+      "warrantyInfo": "No warranty; proper-quality products."
+    }
+  },
+  {
+    "name": "Product 24 – Breakfast",
+    "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
+    "discount": "5",
+    "rating": 3.9,
+    "reviewsCount": 22,
+    "price": 840,
+    "category": "Breakfast & Dairy",
+    "quantity": "0",
+    "summary": {
+      "shortDescription": "This is a short description for Product 24 – Breakfast."
+    },
+    "details": {
+      "description": "This is a detailed description for Product 24 – Breakfast. Quality assured.",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/8/8a/Banana-Single.jpg"
+      ],
+      "specialOfferCountdown": [
+        "12",
+        "00",
+        "48",
+        "24"
+      ],
+      "paymentInfo": "Cash on delivery, Google Pay, Online card",
+      "warrantyInfo": "No warranty; proper-quality products."
+    }
+  },
+  {
+    "name": "Product 25 – Breakfast",
+    "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
+    "discount": "6",
+    "rating": 3.5,
+    "reviewsCount": 25,
+    "price": 850,
+    "category": "Breakfast & Dairy",
+    "quantity": "0",
+    "summary": {
+      "shortDescription": "This is a short description for Product 25 – Breakfast."
+    },
+    "details": {
+      "description": "This is a detailed description for Product 25 – Breakfast. Quality assured.",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/8/8a/Banana-Single.jpg"
+      ],
+      "specialOfferCountdown": [
+        "15",
+        "05",
+        "55",
+        "35"
+      ],
+      "paymentInfo": "Cash on delivery, Google Pay, Online card",
+      "warrantyInfo": "No warranty; proper-quality products."
+    }
+  },
+  {
+    "name": "Product 26 – Breakfast",
+    "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
+    "discount": "7",
+    "rating": 3.6,
+    "reviewsCount": 28,
+    "price": 860,
+    "category": "Breakfast & Dairy",
+    "quantity": "0",
+    "summary": {
+      "shortDescription": "This is a short description for Product 26 – Breakfast."
+    },
+    "details": {
+      "description": "This is a detailed description for Product 26 – Breakfast. Quality assured.",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/8/8a/Banana-Single.jpg"
+      ],
+      "specialOfferCountdown": [
+        "18",
+        "10",
+        "02",
+        "46"
+      ],
+      "paymentInfo": "Cash on delivery, Google Pay, Online card",
+      "warrantyInfo": "No warranty; proper-quality products."
+    }
+  }
+]
