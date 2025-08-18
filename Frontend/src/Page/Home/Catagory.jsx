@@ -47,7 +47,7 @@ function Catagory() {
                     </SwiperSlide>
                 ))}
             </Swiper>
-
+            {/* swiper css apply */}
             <style jsx>
                 {`
                 .catagorySwiper .swiper-pagination {

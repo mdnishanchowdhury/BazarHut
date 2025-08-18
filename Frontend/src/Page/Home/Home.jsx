@@ -1,4 +1,4 @@
-import ProductList from '../Products/ProductList'
+import ProductList from '../ProductCards/ProductCards'
 import Banner from './Banner'
 import Catagory from './Catagory'
 
@@ -7,7 +7,7 @@ function Home() {
     <div>
       <Banner />
       <aside className="max-w-[1360px] mx-auto px-2 md:px-0">
-        <Catagory />
+        <Catagory></Catagory>
         <ProductList></ProductList>
       </aside>
     </div>

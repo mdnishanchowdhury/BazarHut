@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { MdOutlineMenu, MdSearch, MdFavorite, MdShoppingCart } from "react-icons/md";
-import Avatar from "./Avatar";
+import Avatar from "../../Components/Navbar/Avatar";
 function Navbar() {
   const linkClass = "text-[15px] font-semibold transition-all duration-300 hover:text-blue-600 hover:translate-y-[-2px]";
   const [isFixed, setFixed] = useState(false);

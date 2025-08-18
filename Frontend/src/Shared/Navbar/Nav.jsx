@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import LanguageChange from "../../Components/LanguageChange";
-import CurrencyChange from "../../Components/CurrencyChange";
-import DarkModeChange from "../../Components/DarkModeChange";
+import LanguageChange from "../../Components/Navbar/LanguageChange";
+import CurrencyChange from "../../Components/Navbar/CurrencyChange";
+import DarkModeChange from "../../Components/Navbar/DarkModeChange";
 
 function Nav() {
  

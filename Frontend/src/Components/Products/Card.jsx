@@ -4,8 +4,8 @@ import "@smastrom/react-rating/style.css";
 import { IoCart, IoHeartOutline } from "react-icons/io5";
 import { Link } from "react-router-dom";
 
-function Product({ item }) {
-    const {_id, thumbnail, name, rating, price, reviewsCount, discount, quantity } = item;
+function Card({ item }) {
+    const { _id, thumbnail, name, rating, price, reviewsCount, discount, quantity } = item;
     const [isFavorite, setIsFavorite] = useState(false);
 
     const discountPercent = parseFloat(discount);
@@ -32,8 +32,7 @@ function Product({ item }) {
                 {/* Favorite Button */}
                 <button
                     onClick={() => setIsFavorite(!isFavorite)}
-                    className="absolute top-3 right-3 text-gray-600 hover:text-orange-300 transition-transform transform hover:scale-110"
-                >
+                    className="absolute top-3 right-3 text-gray-600 hover:text-orange-300 transition-transform transform hover:scale-110">
                     <IoHeartOutline size={24} className={isFavorite ? "text-red-500" : ""} />
                 </button>
 
@@ -42,8 +41,7 @@ function Product({ item }) {
                     src={thumbnail}
                     alt={name}
                     className="w-[151px] h-[151px] object-cover pt-5 
-                               transition-transform duration-300 hover:scale-110"
-                />
+                               transition-transform duration-300 hover:scale-110"/>
 
                 {/* Product Info */}
                 <div className="pt-5 pl-3.5 transition-opacity duration-300 hover:opacity-90">
@@ -61,6 +59,7 @@ function Product({ item }) {
                         <span className="text-gray-400 line-through text-sm text-[16px] font-medium">${price}</span>
                     </div>
 
+                    {/* button */}
                     <div className="flex items-center gap-2 mt-3">
                         <Link to={`/detail/${_id}`}>
                             <button className="bg-green-600 p-2 rounded-md hover:bg-green-700 transition-transform transform hover:scale-110">
@@ -77,4 +76,4 @@ function Product({ item }) {
     );
 }
 
-export default Product;
+export default Card;

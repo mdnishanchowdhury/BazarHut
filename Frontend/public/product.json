@@ -1,6 +1,5 @@
 [
   {
-    "id": 11445476692356821,
     "name": "Product 1 \u2013 Breakfast",
     "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
     "discount": "11",
@@ -17,7 +16,7 @@
     "details": {
       "description": "This is a detailed description for Product 1 \u2013 Breakfast. Quality assured.",
       "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/8/8a/Banana-Single.jpg"
+      "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg"
       ],
       "specialOfferCountdown": [
         "41",
@@ -30,7 +29,6 @@
     }
   },
   {
-    "id": 11445476692356822,
     "name": "Product 2 \u2013 Beverages",
     "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
     "discount": "7",
@@ -48,9 +46,8 @@
     },
     "details": {
       "description": "This is a detailed description for Product 2 \u2013 Beverages. Quality assured.",
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/e/milk1.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/f/juice1.jpg"
+       "images": [
+      "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg"
       ],
       "specialOfferCountdown": [
         "52",
@@ -63,7 +60,6 @@
     }
   },
   {
-    "id": 11445476692356823,
     "name": "Product 3 \u2013 Household",
     "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
     "discount": "5",
@@ -82,9 +78,7 @@
     "details": {
       "description": "This is a detailed description for Product 3 \u2013 Household. Quality assured.",
       "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/8/8a/Banana-Single.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/f/juice1.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/g/snack1.jpg"
+      "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg"
       ],
       "specialOfferCountdown": [
         "59",
@@ -97,7 +91,6 @@
     }
   },
   {
-    "id": 11445476692356824,
     "name": "Product 4 \u2013 Meats",
     "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
     "discount": "24",
@@ -116,8 +109,7 @@
     "details": {
       "description": "This is a detailed description for Product 4 \u2013 Meats. Quality assured.",
       "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/4/4c/Banana_on_white_background.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/g/snack1.jpg"
+        "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg"
       ],
       "specialOfferCountdown": [
         "12",
@@ -130,7 +122,6 @@
     }
   },
   {
-    "id": 11445476692356825,
     "name": "Product 5 \u2013 Baby",
     "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
     "discount": "19",
@@ -149,9 +140,8 @@
     },
     "details": {
       "description": "This is a detailed description for Product 5 \u2013 Baby. Quality assured.",
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/a/apple1.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/d/bread1.jpg"
+       "images": [
+      "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg"
       ],
       "specialOfferCountdown": [
         "41",
@@ -164,7 +154,6 @@
     }
   },
   {
-    "id": 11445476692356826,
     "name": "Product 6 \u2013 Fruits",
     "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
     "discount": "0",
@@ -183,7 +172,7 @@
     "details": {
       "description": "This is a detailed description for Product 6 \u2013 Fruits. Quality assured.",
       "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/f/juice1.jpg"
+      "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg"
       ],
       "specialOfferCountdown": [
         "83",
@@ -196,7 +185,6 @@
     }
   },
   {
-    "id": 11445476692356827,
     "name": "Product 7 \u2013 Grocery",
     "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
     "discount": "28",
@@ -213,7 +201,7 @@
     "details": {
       "description": "This is a detailed description for Product 7 \u2013 Grocery. Quality assured.",
       "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/d/bread1.jpg"
+      "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg"
       ],
       "specialOfferCountdown": [
         "72",
@@ -226,7 +214,6 @@
     }
   },
   {
-    "id": 11445476692356828,
     "name": "Product 8 \u2013 Fruits",
     "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
     "discount": "12",
@@ -242,8 +229,8 @@
     },
     "details": {
       "description": "This is a detailed description for Product 8 \u2013 Fruits. Quality assured.",
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/a/apple1.jpg"
+       "images": [
+      "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg"
       ],
       "specialOfferCountdown": [
         "37",
@@ -256,7 +243,6 @@
     }
   },
   {
-    "id": 11445476692356829,
     "name": "Product 9 \u2013 Baby",
     "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
     "discount": "9",
@@ -276,9 +262,7 @@
     "details": {
       "description": "This is a detailed description for Product 9 \u2013 Baby. Quality assured.",
       "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/f/juice1.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/a/apple1.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/e/milk1.jpg"
+      "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg"
       ],
       "specialOfferCountdown": [
         "24",
@@ -291,7 +275,6 @@
     }
   },
   {
-    "id": 11445476692356830,
     "name": "Product 10 \u2013 Breakfast",
     "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
     "discount": "23",
@@ -309,8 +292,8 @@
     },
     "details": {
       "description": "This is a detailed description for Product 10 \u2013 Breakfast. Quality assured.",
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/4/4c/Banana_on_white_background.jpg"
+       "images": [
+      "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg"
       ],
       "specialOfferCountdown": [
         "92",
@@ -323,7 +306,6 @@
     }
   },
   {
-    "id": 11445476692356831,
     "name": "Product 11 \u2013 Healthcare",
     "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
     "discount": "24",
@@ -340,7 +322,7 @@
     "details": {
       "description": "This is a detailed description for Product 11 \u2013 Healthcare. Quality assured.",
       "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/f/juice1.jpg"
+      "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg"
       ],
       "specialOfferCountdown": [
         "69",
@@ -353,7 +335,6 @@
     }
   },
   {
-    "id": 11445476692356832,
     "name": "Product 12 \u2013 Breads",
     "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
     "discount": "5",
@@ -369,8 +350,8 @@
     },
     "details": {
       "description": "This is a detailed description for Product 12 \u2013 Breads. Quality assured.",
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/a/apple1.jpg"
+       "images": [
+      "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg"
       ],
       "specialOfferCountdown": [
         "06",
@@ -383,7 +364,6 @@
     }
   },
   {
-    "id": 11445476692356833,
     "name": "Product 13 \u2013 Meats",
     "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
     "discount": "15",
@@ -402,7 +382,7 @@
     "details": {
       "description": "This is a detailed description for Product 13 \u2013 Meats. Quality assured.",
       "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/b/apple2.jpg"
+      "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg"
       ],
       "specialOfferCountdown": [
         "27",
@@ -415,7 +395,6 @@
     }
   },
   {
-    "id": 11445476692356834,
     "name": "Product 14 \u2013 Baby",
     "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
     "discount": "13",
@@ -435,8 +414,7 @@
     "details": {
       "description": "This is a detailed description for Product 14 \u2013 Baby. Quality assured.",
       "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/8/8a/Banana-Single.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/b/apple2.jpg"
+      "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg"
       ],
       "specialOfferCountdown": [
         "91",
@@ -449,7 +427,6 @@
     }
   },
   {
-    "id": 11445476692356835,
     "name": "Product 15 \u2013 Baby",
     "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
     "discount": "2",
@@ -468,10 +445,8 @@
     },
     "details": {
       "description": "This is a detailed description for Product 15 \u2013 Baby. Quality assured.",
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/d/bread1.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/1/1b/Banana_Bunch.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/b/apple2.jpg"
+       "images": [
+      "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg"
       ],
       "specialOfferCountdown": [
         "53",
@@ -484,7 +459,6 @@
     }
   },
   {
-    "id": 11445476692356836,
     "name": "Product 16 \u2013 Breads",
     "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
     "discount": "3",
@@ -501,7 +475,7 @@
     "details": {
       "description": "This is a detailed description for Product 16 \u2013 Breads. Quality assured.",
       "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/e/milk1.jpg"
+      "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg"
       ],
       "specialOfferCountdown": [
         "52",
@@ -514,7 +488,6 @@
     }
   },
   {
-    "id": 11445476692356837,
     "name": "Product 17 \u2013 Meats",
     "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
     "discount": "11",
@@ -533,9 +506,8 @@
     },
     "details": {
       "description": "This is a detailed description for Product 17 \u2013 Meats. Quality assured.",
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/4/4c/Banana_on_white_background.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/a/apple1.jpg"
+       "images": [
+      "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg"
       ],
       "specialOfferCountdown": [
         "48",
@@ -548,7 +520,6 @@
     }
   },
   {
-    "id": 11445476692356838,
     "name": "Product 18 \u2013 Meats",
     "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
     "discount": "19",
@@ -565,8 +536,7 @@
     "details": {
       "description": "This is a detailed description for Product 18 \u2013 Meats. Quality assured.",
       "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/g/snack1.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/b/apple2.jpg"
+      "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg"
       ],
       "specialOfferCountdown": [
         "19",
@@ -579,7 +549,6 @@
     }
   },
   {
-    "id": 11445476692356839,
     "name": "Product 19 \u2013 Household",
     "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
     "discount": "23",
@@ -596,8 +565,7 @@
     "details": {
       "description": "This is a detailed description for Product 19 \u2013 Household. Quality assured.",
       "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/1/1b/Banana_Bunch.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/a/apple1.jpg"
+      "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg"
       ],
       "specialOfferCountdown": [
         "24",
@@ -610,7 +578,6 @@
     }
   },
   {
-    "id": 11445476692356840,
     "name": "Product 20 \u2013 Frozen",
     "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
     "discount": "27",
@@ -630,9 +597,7 @@
     "details": {
       "description": "This is a detailed description for Product 20 \u2013 Frozen. Quality assured.",
       "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/1/1b/Banana_Bunch.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/g/snack1.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/a/apple1.jpg"
+      "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg"
       ],
       "specialOfferCountdown": [
         "54",
@@ -645,7 +610,6 @@
     }
   },
   {
-    "id": 11445476692356841,
     "name": "Product 21 \u2013 Breakfast",
     "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
     "discount": "28",
@@ -664,8 +628,7 @@
     "details": {
       "description": "This is a detailed description for Product 21 \u2013 Breakfast. Quality assured.",
       "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/8/8a/Banana-Single.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/c/chicken1.jpg"
+      "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg"
       ],
       "specialOfferCountdown": [
         "53",
@@ -678,7 +641,6 @@
     }
   },
   {
-    "id": 11445476692356842,
     "name": "Product 22 \u2013 Breakfast",
     "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
     "discount": "16",
@@ -696,9 +658,8 @@
     },
     "details": {
       "description": "This is a detailed description for Product 22 \u2013 Breakfast. Quality assured.",
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/c/chicken1.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/d/bread1.jpg"
+       "images": [
+      "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg"
       ],
       "specialOfferCountdown": [
         "83",
@@ -711,7 +672,6 @@
     }
   },
   {
-    "id": 11445476692356843,
     "name": "Product 23 \u2013 Fruits",
     "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
     "discount": "4",
@@ -728,8 +688,7 @@
     "details": {
       "description": "This is a detailed description for Product 23 \u2013 Fruits. Quality assured.",
       "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/d/bread1.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/4/4c/Banana_on_white_background.jpg"
+      "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg"
       ],
       "specialOfferCountdown": [
         "85",
@@ -742,7 +701,6 @@
     }
   },
   {
-    "id": 11445476692356844,
     "name": "Product 24 \u2013 Fruits",
     "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
     "discount": "10",
@@ -760,10 +718,8 @@
     },
     "details": {
       "description": "This is a detailed description for Product 24 \u2013 Fruits. Quality assured.",
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/d/bread1.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/c/chicken1.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/8/8a/Banana-Single.jpg"
+    "images": [
+      "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg"
       ],
       "specialOfferCountdown": [
         "34",
@@ -776,7 +732,6 @@
     }
   },
   {
-    "id": 11445476692356845,
     "name": "Product 25 \u2013 Breads",
     "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
     "discount": "25",
@@ -794,9 +749,8 @@
     },
     "details": {
       "description": "This is a detailed description for Product 25 \u2013 Breads. Quality assured.",
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/d/bread1.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/f/juice1.jpg"
+       "images": [
+      "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg"
       ],
       "specialOfferCountdown": [
         "37",
@@ -809,7 +763,6 @@
     }
   },
   {
-    "id": 11445476692356846,
     "name": "Product 26 \u2013 Grocery",
     "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
     "discount": "4",
@@ -825,9 +778,8 @@
     },
     "details": {
       "description": "This is a detailed description for Product 26 \u2013 Grocery. Quality assured.",
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/1/1b/Banana_Bunch.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/b/apple2.jpg"
+       "images": [
+      "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg"
       ],
       "specialOfferCountdown": [
         "22",
@@ -840,7 +792,6 @@
     }
   },
   {
-    "id": 11445476692356847,
     "name": "Product 27 \u2013 Fruits",
     "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
     "discount": "5",
@@ -860,8 +811,7 @@
     "details": {
       "description": "This is a detailed description for Product 27 \u2013 Fruits. Quality assured.",
       "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/8/8a/Banana-Single.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/g/snack1.jpg"
+      "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg"
       ],
       "specialOfferCountdown": [
         "95",
@@ -874,7 +824,6 @@
     }
   },
   {
-    "id": 11445476692356848,
     "name": "Product 28 \u2013 Healthcare",
     "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
     "discount": "8",
@@ -890,9 +839,8 @@
     },
     "details": {
       "description": "This is a detailed description for Product 28 \u2013 Healthcare. Quality assured.",
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/f/juice1.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/b/apple2.jpg"
+       "images": [
+      "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg"
       ],
       "specialOfferCountdown": [
         "10",
@@ -905,7 +853,6 @@
     }
   },
   {
-    "id": 11445476692356849,
     "name": "Product 29 \u2013 Breakfast",
     "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
     "discount": "23",
@@ -923,8 +870,8 @@
     },
     "details": {
       "description": "This is a detailed description for Product 29 \u2013 Breakfast. Quality assured.",
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/e/milk1.jpg"
+       "images": [
+      "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg"
       ],
       "specialOfferCountdown": [
         "92",
@@ -937,7 +884,6 @@
     }
   },
   {
-    "id": 11445476692356850,
     "name": "Product 30 \u2013 Healthcare",
     "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
     "discount": "16",
@@ -953,8 +899,8 @@
     },
     "details": {
       "description": "This is a detailed description for Product 30 \u2013 Healthcare. Quality assured.",
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/g/snack1.jpg"
+       "images": [
+      "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg"
       ],
       "specialOfferCountdown": [
         "45",
@@ -967,7 +913,6 @@
     }
   },
   {
-    "id": 11445476692356851,
     "name": "Product 31 \u2013 Household",
     "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
     "discount": "6",
@@ -983,10 +928,8 @@
     },
     "details": {
       "description": "This is a detailed description for Product 31 \u2013 Household. Quality assured.",
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/f/juice1.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/g/snack1.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/4/4c/Banana_on_white_background.jpg"
+     "images": [
+      "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg"
       ],
       "specialOfferCountdown": [
         "14",
@@ -999,7 +942,6 @@
     }
   },
   {
-    "id": 11445476692356852,
     "name": "Product 32 \u2013 Grocery",
     "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
     "discount": "6",
@@ -1019,8 +961,7 @@
     "details": {
       "description": "This is a detailed description for Product 32 \u2013 Grocery. Quality assured.",
       "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/8/8a/Banana-Single.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/c/chicken1.jpg"
+      "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg"
       ],
       "specialOfferCountdown": [
         "10",
@@ -1033,7 +974,6 @@
     }
   },
   {
-    "id": 11445476692356853,
     "name": "Product 33 \u2013 Meats",
     "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
     "discount": "30",
@@ -1052,9 +992,8 @@
     },
     "details": {
       "description": "This is a detailed description for Product 33 \u2013 Meats. Quality assured.",
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/8/8a/Banana-Single.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/d/bread1.jpg"
+       "images": [
+      "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg"
       ],
       "specialOfferCountdown": [
         "36",
@@ -1067,7 +1006,6 @@
     }
   },
   {
-    "id": 11445476692356854,
     "name": "Product 34 \u2013 Frozen",
     "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
     "discount": "28",
@@ -1087,7 +1025,7 @@
     "details": {
       "description": "This is a detailed description for Product 34 \u2013 Frozen. Quality assured.",
       "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/4/4c/Banana_on_white_background.jpg"
+      "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg"
       ],
       "specialOfferCountdown": [
         "80",
@@ -1100,7 +1038,6 @@
     }
   },
   {
-    "id": 11445476692356855,
     "name": "Product 35 \u2013 Household",
     "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
     "discount": "22",
@@ -1117,7 +1054,7 @@
     "details": {
       "description": "This is a detailed description for Product 35 \u2013 Household. Quality assured.",
       "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/g/snack1.jpg"
+      "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg"
       ],
       "specialOfferCountdown": [
         "36",
@@ -1130,7 +1067,6 @@
     }
   },
   {
-    "id": 11445476692356856,
     "name": "Product 36 \u2013 Frozen",
     "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
     "discount": "11",
@@ -1148,10 +1084,8 @@
     },
     "details": {
       "description": "This is a detailed description for Product 36 \u2013 Frozen. Quality assured.",
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/d/bread1.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/a/apple1.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/e/milk1.jpg"
+       "images": [
+      "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg"
       ],
       "specialOfferCountdown": [
         "96",
@@ -1164,7 +1098,6 @@
     }
   },
   {
-    "id": 11445476692356857,
     "name": "Product 37 \u2013 Household",
     "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
     "discount": "22",
@@ -1180,9 +1113,8 @@
     },
     "details": {
       "description": "This is a detailed description for Product 37 \u2013 Household. Quality assured.",
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/d/bread1.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/1/1b/Banana_Bunch.jpg"
+     "images": [
+      "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg"
       ],
       "specialOfferCountdown": [
         "59",
@@ -1195,7 +1127,6 @@
     }
   },
   {
-    "id": 11445476692356858,
     "name": "Product 38 \u2013 Household",
     "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
     "discount": "25",
@@ -1214,9 +1145,7 @@
     "details": {
       "description": "This is a detailed description for Product 38 \u2013 Household. Quality assured.",
       "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/d/bread1.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/b/apple2.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/e/milk1.jpg"
+      "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg"
       ],
       "specialOfferCountdown": [
         "59",
@@ -1229,7 +1158,6 @@
     }
   },
   {
-    "id": 11445476692356859,
     "name": "Product 39 \u2013 Biscuits",
     "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
     "discount": "2",
@@ -1248,10 +1176,8 @@
     },
     "details": {
       "description": "This is a detailed description for Product 39 \u2013 Biscuits. Quality assured.",
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/b/apple2.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/e/milk1.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/4/4c/Banana_on_white_background.jpg"
+     "images": [
+      "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg"
       ],
       "specialOfferCountdown": [
         "69",
@@ -1264,7 +1190,6 @@
     }
   },
   {
-    "id": 11445476692356860,
     "name": "Product 40 \u2013 Biscuits",
     "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
     "discount": "6",
@@ -1283,8 +1208,7 @@
     "details": {
       "description": "This is a detailed description for Product 40 \u2013 Biscuits. Quality assured.",
       "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/f/juice1.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/e/milk1.jpg"
+      "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg"
       ],
       "specialOfferCountdown": [
         "68",
@@ -1297,7 +1221,6 @@
     }
   },
   {
-    "id": 11445476692356861,
     "name": "Product 41 \u2013 Healthcare",
     "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
     "discount": "11",
@@ -1317,7 +1240,7 @@
     "details": {
       "description": "This is a detailed description for Product 41 \u2013 Healthcare. Quality assured.",
       "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/4/4c/Banana_on_white_background.jpg"
+      "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg"
       ],
       "specialOfferCountdown": [
         "39",
@@ -1330,7 +1253,6 @@
     }
   },
   {
-    "id": 11445476692356862,
     "name": "Product 42 \u2013 Breads",
     "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
     "discount": "16",
@@ -1349,7 +1271,7 @@
     "details": {
       "description": "This is a detailed description for Product 42 \u2013 Breads. Quality assured.",
       "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/8/8a/Banana-Single.jpg"
+      "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg"
       ],
       "specialOfferCountdown": [
         "03",
@@ -1362,7 +1284,6 @@
     }
   },
   {
-    "id": 11445476692356863,
     "name": "Product 43 \u2013 Healthcare",
     "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
     "discount": "3",
@@ -1381,8 +1302,8 @@
     },
     "details": {
       "description": "This is a detailed description for Product 43 \u2013 Healthcare. Quality assured.",
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/f/juice1.jpg"
+     "images": [
+      "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg"
       ],
       "specialOfferCountdown": [
         "85",
@@ -1395,7 +1316,6 @@
     }
   },
   {
-    "id": 11445476692356864,
     "name": "Product 44 \u2013 Fruits",
     "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
     "discount": "27",
@@ -1414,10 +1334,8 @@
     },
     "details": {
       "description": "This is a detailed description for Product 44 \u2013 Fruits. Quality assured.",
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/e/milk1.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/1/1b/Banana_Bunch.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/f/juice1.jpg"
+     "images": [
+      "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg"
       ],
       "specialOfferCountdown": [
         "43",
@@ -1430,7 +1348,6 @@
     }
   },
   {
-    "id": 11445476692356865,
     "name": "Product 45 \u2013 Baby",
     "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
     "discount": "4",
@@ -1446,8 +1363,8 @@
     },
     "details": {
       "description": "This is a detailed description for Product 45 \u2013 Baby. Quality assured.",
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/1/1b/Banana_Bunch.jpg"
+    "images": [
+      "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg"
       ],
       "specialOfferCountdown": [
         "98",
@@ -1460,7 +1377,6 @@
     }
   },
   {
-    "id": 11445476692356866,
     "name": "Product 46 \u2013 Healthcare",
     "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
     "discount": "7",
@@ -1480,7 +1396,7 @@
     "details": {
       "description": "This is a detailed description for Product 46 \u2013 Healthcare. Quality assured.",
       "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/g/snack1.jpg"
+      "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg"
       ],
       "specialOfferCountdown": [
         "14",
@@ -1493,7 +1409,6 @@
     }
   },
   {
-    "id": 11445476692356867,
     "name": "Product 47 \u2013 Grocery",
     "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
     "discount": "12",
@@ -1509,8 +1424,8 @@
     },
     "details": {
       "description": "This is a detailed description for Product 47 \u2013 Grocery. Quality assured.",
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/b/apple2.jpg"
+       "images": [
+      "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg"
       ],
       "specialOfferCountdown": [
         "53",
@@ -1523,7 +1438,6 @@
     }
   },
   {
-    "id": 11445476692356868,
     "name": "Product 48 \u2013 Meats",
     "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
     "discount": "26",
@@ -1543,8 +1457,7 @@
     "details": {
       "description": "This is a detailed description for Product 48 \u2013 Meats. Quality assured.",
       "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/f/juice1.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/a/apple1.jpg"
+      "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg"
       ],
       "specialOfferCountdown": [
         "64",
@@ -1557,7 +1470,6 @@
     }
   },
   {
-    "id": 11445476692356869,
     "name": "Product 49 \u2013 Beverages",
     "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
     "discount": "26",
@@ -1575,10 +1487,8 @@
     },
     "details": {
       "description": "This is a detailed description for Product 49 \u2013 Beverages. Quality assured.",
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/f/juice1.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/g/snack1.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/d/bread1.jpg"
+     "images": [
+      "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg"
       ],
       "specialOfferCountdown": [
         "31",
@@ -1591,7 +1501,6 @@
     }
   },
   {
-    "id": 11445476692356870,
     "name": "Product 50 \u2013 Meats",
     "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
     "discount": "11",
@@ -1610,9 +1519,8 @@
     },
     "details": {
       "description": "This is a detailed description for Product 50 \u2013 Meats. Quality assured.",
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/a/apple1.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/8/8a/Banana-Single.jpg"
+     "images": [
+      "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg"
       ],
       "specialOfferCountdown": [
         "15",
@@ -1625,7 +1533,6 @@
     }
   },
   {
-    "id": 11445476692356871,
     "name": "Product 51 \u2013 Baby",
     "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
     "discount": "5",
@@ -1641,10 +1548,8 @@
     },
     "details": {
       "description": "This is a detailed description for Product 51 \u2013 Baby. Quality assured.",
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/e/milk1.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/b/apple2.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/4/4c/Banana_on_white_background.jpg"
+    "images": [
+      "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg"
       ],
       "specialOfferCountdown": [
         "32",
@@ -1657,7 +1562,6 @@
     }
   },
   {
-    "id": 11445476692356872,
     "name": "Product 52 \u2013 Beverages",
     "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
     "discount": "19",
@@ -1673,9 +1577,8 @@
     },
     "details": {
       "description": "This is a detailed description for Product 52 \u2013 Beverages. Quality assured.",
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/d/bread1.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/1/1b/Banana_Bunch.jpg"
+     "images": [
+      "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg"
       ],
       "specialOfferCountdown": [
         "99",
@@ -1688,7 +1591,6 @@
     }
   },
   {
-    "id": 11445476692356873,
     "name": "Product 53 \u2013 Frozen",
     "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
     "discount": "19",
@@ -1708,7 +1610,7 @@
     "details": {
       "description": "This is a detailed description for Product 53 \u2013 Frozen. Quality assured.",
       "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/g/snack1.jpg"
+      "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg"
       ],
       "specialOfferCountdown": [
         "81",
@@ -1721,7 +1623,6 @@
     }
   },
   {
-    "id": 11445476692356874,
     "name": "Product 54 \u2013 Grocery",
     "thumbnail": "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg",
     "discount": "29",
@@ -1740,7 +1641,7 @@
     "details": {
       "description": "This is a detailed description for Product 54 \u2013 Grocery. Quality assured.",
       "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/a/apple1.jpg"
+      "https://i.ibb.co/hxWLf34B/ea537991dadbe489565ab20b2cb83e3c47b2e589.jpg"
       ],
       "specialOfferCountdown": [
         "73",
