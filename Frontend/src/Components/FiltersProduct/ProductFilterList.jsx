@@ -1,4 +1,3 @@
-import React from 'react'
 import Product from '../Products/Card.jsx'
 
 function ProductFilterList({filteredProducts}) {

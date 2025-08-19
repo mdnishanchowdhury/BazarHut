@@ -1,24 +1,26 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { MdOutlineMenu, MdSearch, MdFavorite, MdShoppingCart } from "react-icons/md";
 import Avatar from "../../Components/Navbar/Avatar";
+import { useProducts } from "../../Hook/useProducts";
 function Navbar() {
   const linkClass = "text-[15px] font-semibold transition-all duration-300 hover:text-blue-600 hover:translate-y-[-2px]";
   const [isFixed, setFixed] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
-  const [catagory, setCatagory] = useState([]);
+
+  // catagories
+  const { categories } = useProducts();
+  const navigate = useNavigate();
+
+  const handleCategoryClick = (catName) => {
+    navigate(`/productFilter?category=${encodeURIComponent(catName)}`);
+  };
+
 
   useEffect(() => {
     const handleScroll = () => setFixed(window.scrollY > 50);
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
-  //catagory
-  useEffect(() => {
-    fetch('/catagory.json')
-      .then(res => res.json())
-      .then(data => setCatagory(data));
   }, []);
 
   const links = (
@@ -27,11 +29,13 @@ function Navbar() {
       <li className="relative group">
         <span className={linkClass}>Categories</span>
         <ul className="absolute left-0 top-full hidden group-hover:block bg-white p-2 rounded shadow-lg min-w-[200px] z-50">
-          {catagory.map(item => (
-            <li key={item.id}>
-              <Link to={`/category/${item.id}`} className="block px-2 py-1 hover:bg-gray-100">{item.name}</Link>
-            </li>
-          ))}
+          {
+            categories.map(item => (
+              <button onClick={() => handleCategoryClick(item.name)} key={item.id}
+                className="block px-2 py-1 hover:bg-gray-100"> {item.name}
+              </button>
+            ))
+          }
         </ul>
       </li>
       <li><Link className={linkClass} to="/blog">Blog</Link></li>
