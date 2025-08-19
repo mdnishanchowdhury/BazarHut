@@ -1,16 +1,21 @@
-import Card from './Card.jsx'
+import Card from './Card.jsx';
+
 function Cards({ items }) {
     return (
-        <div className="flex justify-center items-center">
-            <div className="grid grid-cols-2 md:grid-cols-6 gap-2">
+        <div className="flex justify-center items-center px-2 sm:px-4 md:px-6 lg:px-0">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 w-full">
                 {
-                    items.map((item) => (
-                        <Card key={item.id} item={item} ></Card>
-                    ))
+                    items && items.length > 0 ? (
+                        items.map(item => <Card key={item._id || item.id} item={item} />)
+                    ) : (
+                        <p className=" col-span-full text-center mt-3">
+                            <span className="loading loading-spinner loading-xl"></span>
+                        </p>
+                    )
                 }
             </div>
         </div>
-    )
+    );
 }
 
-export default Cards
+export default Cards;

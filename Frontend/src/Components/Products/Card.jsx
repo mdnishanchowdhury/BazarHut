@@ -18,7 +18,7 @@ function Card({ item }) {
     const stockColor = quantity > 0 ? "text-green-600" : "text-red-600";
 
     return (
-        <div className="w-[180px] md:w-[202px] h-[360px] border border-[#E5E7EB] rounded-lg my-2 
+        <div className="w-full md:w-[209px] h-[360px] border border-[#E5E7EB] rounded-lg my-2 
                         transform transition-transform duration-300 hover:scale-105 hover:shadow-lg ">
             <div className="flex flex-col justify-center pt-6 relative items-center">
 

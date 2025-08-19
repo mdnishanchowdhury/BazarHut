@@ -16,6 +16,8 @@ const ProductFilter = () => {
   const [priceRange, setSelectedPriceRange] = useState(defaultPriceRange);
   const [statusFilter, setStatusFilter] = useState("");
 
+  console.log('location',location)
+
   // priceRange
   useEffect(() => {
     if (products.length) {

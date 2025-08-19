@@ -14,10 +14,12 @@ function ActionsDetails() {
             </div>
 
             {/* Cart + Buy */}
-            <button className="flex-1 bg-green-600 h-[46px] text-white text-sm font-bold rounded-md hover:bg-green-700">
-                Add to cart
+            <button className="w-full sm:flex-1 bg-green-600 h-[46px] text-white text-sm font-bold rounded-md hover:bg-green-700">
+                Add to Cart
             </button>
-            <button className="flex-1 bg-gray-900 h-[46px] text-white text-sm font-bold rounded-md hover:bg-black">
+
+            {/* Buy */}
+            <button className="w-full sm:flex-1 bg-gray-900 h-[46px] text-white text-sm font-bold rounded-md hover:bg-black">
                 Buy Now
             </button>
         </div>

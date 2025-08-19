@@ -14,7 +14,7 @@ function Catagory() {
     };
 
     return (
-        <div className="mt-12 font-inter">
+        <div className="mt-12 w-full px-2 md:px-0">
             <Swiper
                 modules={[Pagination]}
                 spaceBetween={10}
