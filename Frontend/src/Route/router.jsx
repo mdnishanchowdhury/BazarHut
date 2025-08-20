@@ -3,6 +3,8 @@ import Main from "../Layout/Main";
 import Home from "../Page/Home/Home";
 import ProductFilter from "../Page/ProductFilter/ProductFilter";
 import CardDetails from "../Page/CardDetails/CardDetails";
+import Login from "../Page/Login/Login";
+import SignUp from "../Page/SignUp/SignUp";
 
 export const router = createBrowserRouter([
   {
@@ -21,6 +23,14 @@ export const router = createBrowserRouter([
       {
         path: 'productFilter',
         element: <ProductFilter></ProductFilter>
+      },
+      {
+        path: 'login',
+        element: <Login></Login>
+      },
+      {
+        path: 'signUp',
+        element: <SignUp></SignUp>
       },
     ]
   },

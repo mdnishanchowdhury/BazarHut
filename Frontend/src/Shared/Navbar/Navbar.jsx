@@ -1,8 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { MdOutlineMenu, MdSearch, MdFavorite, MdShoppingCart } from "react-icons/md";
 import Avatar from "../../Components/Navbar/Avatar";
+import { AuthContext } from "../../Providers/AuthProvider";
 import { useProducts } from "../../Hook/useProducts";
+import Swal from "sweetalert2";
 function Navbar() {
   const linkClass = "text-[15px] font-semibold transition-all duration-300 hover:text-blue-600 hover:translate-y-[-2px]";
   const [isFixed, setFixed] = useState(false);
@@ -11,11 +13,24 @@ function Navbar() {
   // catagories
   const { categories } = useProducts();
   const navigate = useNavigate();
-
+  const { userLogOut, user } = useContext(AuthContext)
   const handleCategoryClick = (catName) => {
     navigate(`/productFilter?category=${encodeURIComponent(catName)}`);
   };
 
+  //logout
+  const handleLoginOut = () => {
+    userLogOut()
+      .then(() => {
+        Swal.fire({
+          position: "top-end",
+          icon: "success",
+          title: "successfully LogOut ",
+          showConfirmButton: false,
+          timer: 1500
+        });
+      })
+  }
 
   useEffect(() => {
     const handleScroll = () => setFixed(window.scrollY > 50);
@@ -56,7 +71,7 @@ function Navbar() {
           <div className="lg:hidden cursor-pointer" onClick={() => setMenuOpen(!menuOpen)}>
             <MdOutlineMenu className="w-6 h-6" />
           </div>
-          <Link to="/" className="text-xl font-bold">BazarHut</Link>
+          <Link to="/" className="text-xl font-bold">BazarHat</Link>
         </div>
 
         {/* Desktop Links */}
@@ -77,7 +92,20 @@ function Navbar() {
           </div>
 
           {/* Avatar dropdown */}
-          <Avatar></Avatar>
+          <Avatar user={user}></Avatar>
+
+          {
+            user && user.email ?
+              <>
+                <Link to='/signUp' onClick={handleLoginOut} className="btn">SignOut</Link>
+              </>
+              :
+              <>
+                <Link to='/login' className="btn">Login</Link>
+                <Link to='/signUp' className="btn">SignUp</Link>
+              </>
+          }
+
         </div>
       </div>
 
