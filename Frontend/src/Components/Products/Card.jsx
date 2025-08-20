@@ -1,14 +1,19 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Rating } from "@smastrom/react-rating";
 import "@smastrom/react-rating/style.css";
-import { IoCart, IoHeartOutline } from "react-icons/io5";
+import { IoCart, IoHeart, IoHeartOutline } from "react-icons/io5";
 import { Link } from "react-router-dom";
+import useAxiosPublic from "../../Hook/useAxiosPublic";
+import useAuth from "../../Hook/useAuth";
+import useFavoritedCards from "../../Hook/useFavoritedCards";
 
 function Card({ item }) {
     const { _id, thumbnail, name, rating, price, reviewsCount, discount, quantity } = item;
     const [isFavorite, setIsFavorite] = useState(false);
-
+    const axiosPublic = useAxiosPublic();
     const discountPercent = parseFloat(discount);
+    const { user } = useAuth();
+    const [favorites, refetch] = useFavoritedCards();  
 
     // Calculate discounted price
     const discountedPrice = +(price - (price * discountPercent) / 100).toFixed(2);
@@ -16,6 +21,36 @@ function Card({ item }) {
     // Stock status
     const stockStatus = quantity > 0 ? "In Stock" : "Stock Out";
     const stockColor = quantity > 0 ? "text-green-600" : "text-red-600";
+
+
+    useEffect(() => {
+        if (favorites) {
+            const alreadyFav = favorites.some(fav => fav.favoritId === _id && fav.email === user?.email);
+            setIsFavorite(alreadyFav);
+        }
+    }, [favorites, _id, user]);
+
+    // btn Favorite 
+    const handleCardSave = () => {
+        if (!isFavorite) {
+            const favorit = {
+                favoritId: _id,
+                email: user.email,
+                name, rating, price, reviewsCount, discount, quantity
+            };
+            axiosPublic.post('/favorites', favorit)
+                .then(() => {
+                    alert('success add');
+                    refetch(); 
+                });
+        } else {
+            axiosPublic.delete(`/favorites/${_id}?email=${user.email}`)
+                .then(() => {
+                    alert('deleted');
+                    refetch();
+                });
+        }
+    };
 
     return (
         <div className="w-full md:w-[209px] h-[360px] border border-[#E5E7EB] rounded-lg my-2 
@@ -31,9 +66,10 @@ function Card({ item }) {
 
                 {/* Favorite Button */}
                 <button
-                    onClick={() => setIsFavorite(!isFavorite)}
-                    className="absolute top-3 right-3 text-gray-600 hover:text-orange-300 transition-transform transform hover:scale-110">
-                    <IoHeartOutline size={24} className={isFavorite ? "text-red-500" : ""} />
+                    onClick={handleCardSave}
+                    className="absolute top-3 right-3 text-gray-600 hover:text-orange-300 transition-transform transform hover:scale-110"
+                >
+                    {isFavorite ? <IoHeart size={24} className="text-red-500" /> : <IoHeartOutline size={24} />}
                 </button>
 
                 {/* Product Image */}

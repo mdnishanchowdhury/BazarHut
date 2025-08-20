@@ -1,20 +1,21 @@
 import { useEffect, useState } from "react";
 import Cards from "../../Components/Products/Cards";
 import { useNavigate } from "react-router-dom";
+import useAxiosPublic from "../../Hook/useAxiosPublic";
 
 function ProductCards() {
   const [items, setItems] = useState([]);
-   const navigate = useNavigate();
-    // catagory  url
-    const handleViewAllClick = () => {
+  const navigate = useNavigate();
+  const axiosPublic = useAxiosPublic();
+  // catagory  url
+  const handleViewAllClick = () => {
     navigate("/productFilter");
   };
 
   useEffect(() => {
-    fetch("http://localhost:5000/products")
-      .then((res) => res.json())
-      .then((data) => {
-        // sudhu 8 ta product nibo
+    axiosPublic.get("/products")
+      .then((res) => {
+        const data = res.data;
         setItems(data.slice(0, 12));
       });
   }, []);

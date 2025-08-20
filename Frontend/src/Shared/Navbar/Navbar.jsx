@@ -1,36 +1,28 @@
-import React, { useContext, useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { MdOutlineMenu, MdSearch, MdFavorite, MdShoppingCart } from "react-icons/md";
 import Avatar from "../../Components/Navbar/Avatar";
-import { AuthContext } from "../../Providers/AuthProvider";
+
 import { useProducts } from "../../Hook/useProducts";
-import Swal from "sweetalert2";
+
+import FavoriteBtn from "../../Components/Navbar/FavoriteStore";
+import useFavoritedCards from "../../Hook/useFavoritedCards";
 function Navbar() {
   const linkClass = "text-[15px] font-semibold transition-all duration-300 hover:text-blue-600 hover:translate-y-[-2px]";
   const [isFixed, setFixed] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const [favoritCart] = useFavoritedCards();
+
 
   // catagories
   const { categories } = useProducts();
   const navigate = useNavigate();
-  const { userLogOut, user } = useContext(AuthContext)
+
   const handleCategoryClick = (catName) => {
     navigate(`/productFilter?category=${encodeURIComponent(catName)}`);
   };
 
-  //logout
-  const handleLoginOut = () => {
-    userLogOut()
-      .then(() => {
-        Swal.fire({
-          position: "top-end",
-          icon: "success",
-          title: "successfully LogOut ",
-          showConfirmButton: false,
-          timer: 1500
-        });
-      })
-  }
+
 
   useEffect(() => {
     const handleScroll = () => setFixed(window.scrollY > 50);
@@ -81,10 +73,7 @@ function Navbar() {
         <div className="flex items-center gap-4">
           <MdSearch className="w-5 h-5 cursor-pointer" />
 
-          <div className="relative cursor-pointer">
-            <MdFavorite className="w-5 h-5" />
-            <span className="absolute -top-2 -right-2 bg-red-500 text-white rounded-full w-4 h-4 text-[10px] flex items-center justify-center">8</span>
-          </div>
+          <FavoriteBtn favoritCart={favoritCart}></FavoriteBtn>
 
           <div className="relative cursor-pointer">
             <MdShoppingCart className="w-5 h-5" />
@@ -92,20 +81,7 @@ function Navbar() {
           </div>
 
           {/* Avatar dropdown */}
-          <Avatar user={user}></Avatar>
-
-          {
-            user && user.email ?
-              <>
-                <Link to='/signUp' onClick={handleLoginOut} className="btn">SignOut</Link>
-              </>
-              :
-              <>
-                <Link to='/login' className="btn">Login</Link>
-                <Link to='/signUp' className="btn">SignUp</Link>
-              </>
-          }
-
+          <Avatar ></Avatar>
         </div>
       </div>
 

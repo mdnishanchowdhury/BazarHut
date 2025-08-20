@@ -6,7 +6,8 @@ function Cards({ items }) {
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 w-full">
                 {
                     items && items.length > 0 ? (
-                        items.map(item => <Card key={item._id || item.id} item={item} />)
+                        items.map(item => 
+                        <Card key={item._id || item.id} item={item} />)
                     ) : (
                         <p className=" col-span-full text-center mt-3">
                             <span className="loading loading-spinner loading-xl"></span>

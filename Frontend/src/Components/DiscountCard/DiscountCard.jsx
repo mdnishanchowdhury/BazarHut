@@ -68,11 +68,11 @@ export default function DiscountCard({ item }) {
 
                     {/* Discount Badge */}
                     {
-                    discountPercent > 0 && timeLeft > 0 && (
-                        <div className="absolute top-3 left-3 px-2 py-1 rounded-full bg-red-600 text-white text-xs font-bold animate-pulse">
-                            {discountPercent}% OFF
-                        </div>
-                    )}
+                        discountPercent > 0 && timeLeft > 0 && (
+                            <div className="absolute top-3 left-3 px-2 py-1 rounded-full bg-red-600 text-white text-xs font-bold animate-pulse">
+                                {discountPercent}% OFF
+                            </div>
+                        )}
 
                     {/* Favorite Button */}
                     <button
@@ -121,16 +121,16 @@ export default function DiscountCard({ item }) {
             </div>
             {/* Countdown */}
             {
-            timeLeft > 0 && (
-                <div className=" pl-5 flex items-center gap-1 text-xs text-gray-600 flex-wrap">
-                    {[days, hours, minutes, seconds].map((t, i) => (
-                        <span key={i} className="bg-gray-100 px-2 py-1 rounded-md font-semibold">
-                            {t}
-                        </span>
-                    ))}
-                    <p className="text-xs font-normal text-[#9CA3AF]">Remains until the end of the offer</p>
-                </div>
-            )
+                timeLeft > 0 && (
+                    <div className=" pl-5 flex items-center gap-1 text-xs text-gray-600 flex-wrap">
+                        {[days, hours, minutes, seconds].map((t, i) => (
+                            <span key={i} className="bg-gray-100 px-2 py-1 rounded-md font-semibold">
+                                {t}
+                            </span>
+                        ))}
+                        <p className="text-xs font-normal text-[#9CA3AF]">Remains until the end of the offer</p>
+                    </div>
+                )
             }
         </div>
     );

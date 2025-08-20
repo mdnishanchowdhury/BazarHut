@@ -1,4 +1,5 @@
 import { Minus, Plus } from "lucide-react";
+import { Link } from "react-router-dom";
 function ActionsDetails() {
     return (
         <div className="flex flex-col sm:flex-row gap-3 mt-5">
@@ -17,10 +18,11 @@ function ActionsDetails() {
             <button className="w-full sm:flex-1 bg-green-600 h-[46px] text-white text-sm font-bold rounded-md hover:bg-green-700">
                 Add to Cart
             </button>
-
             {/* Buy */}
             <button className="w-full sm:flex-1 bg-gray-900 h-[46px] text-white text-sm font-bold rounded-md hover:bg-black">
-                Buy Now
+                <Link to='/Checkout'>
+                    Buy Now
+                </Link>
             </button>
         </div>
 

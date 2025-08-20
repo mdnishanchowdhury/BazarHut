@@ -1,10 +1,11 @@
 import { useState, useEffect } from "react";
+import useAxiosPublic from "./useAxiosPublic";
 
 export function useProducts() {
   const [products, setProducts] = useState([]);
   const [categories, setCategories] = useState([]);
   const [priceRange, setPriceRange] = useState([0, 1000]);
-
+  const axiosPublic = useAxiosPublic();
   // Categories load
   useEffect(() => {
     fetch("http://localhost:5000/catagory")

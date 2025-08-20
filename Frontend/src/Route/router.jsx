@@ -5,6 +5,7 @@ import ProductFilter from "../Page/ProductFilter/ProductFilter";
 import CardDetails from "../Page/CardDetails/CardDetails";
 import Login from "../Page/Login/Login";
 import SignUp from "../Page/SignUp/SignUp";
+import CheckoutPage from "../Page/CheckoutPage/CheckoutPage";
 
 export const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ export const router = createBrowserRouter([
       {
         path: 'signUp',
         element: <SignUp></SignUp>
+      },
+      {
+        path: 'Checkout',
+        element: <CheckoutPage></CheckoutPage>
       },
     ]
   },
