@@ -45,9 +45,11 @@ function Navbar() {
           }
         </ul>
       </li>
+      <li><Link className={linkClass} to="/auth">Dashboard</Link></li>
       <li><Link className={linkClass} to="/blog">Blog</Link></li>
       <li><Link className={linkClass} to="/contact">Contact</Link></li>
       <li><Link className={linkClass} to="/trending">Trending Products</Link></li>
+      
     </>
   );
 

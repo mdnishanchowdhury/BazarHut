@@ -51,12 +51,11 @@ function SignUp() {
         document.title = 'Restaurant | SignUp Form';
     }, []);
     return (
-        <div className="hero bg-base-200 min-h-screen ">
-            <div className="hero-content flex flex-col lg:flex-row-reverse gap-16 md:gap-[204px]">
+        <div className="hero bg-base-200 py-4 ">
 
                 {/* Login Card */}
-                <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
-                    <h2 className='text-4xl font-bold text-center'>SignUp</h2>
+                <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl py-3">
+                    <h2 className='text-4xl font-bold text-center uppercase'>SignUp</h2>
                     <form className="card-body" onSubmit={handleSubmit(onSubmit)}>
                         {/* Name */}
                         <div className="form-control">
@@ -93,15 +92,7 @@ function SignUp() {
                     <h2 className='font-semibold text-center mb-2 text-[#D1A054]'><span className='font-normal'>Already registered? </span> <Link to='/login'> Go to log in</Link></h2>
                     <SocialLogin></SocialLogin>
                 </div>
-
-                {/* image */}
-                <div className="text-center lg:text-left max-w-md">
-                    <img src="" alt="" />
-                </div>
-
-
             </div>
-        </div>
     )
 }
 

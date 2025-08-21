@@ -6,6 +6,9 @@ import CardDetails from "../Page/CardDetails/CardDetails";
 import Login from "../Page/Login/Login";
 import SignUp from "../Page/SignUp/SignUp";
 import CheckoutPage from "../Page/CheckoutPage/CheckoutPage";
+import Profile from "../Components/Dashboard/Profile";
+import Menu from "../Page/Dashboard/Menu";
+import Dashboard from "../Layout/Dashboard";
 
 export const router = createBrowserRouter([
   {
@@ -37,6 +40,26 @@ export const router = createBrowserRouter([
         path: 'Checkout',
         element: <CheckoutPage></CheckoutPage>
       },
+      {
+        path: '*',
+        element: <h1>404 | Page Not Found</h1>
+      }
+
     ]
   },
+  {
+    path: 'auth',
+    element: <Dashboard></Dashboard>,
+    children: [
+      {
+        path: '/auth',
+        element: <Profile></Profile>
+      },
+      {
+        path: '*',
+        element: <h1>404 | Page Not Found</h1>
+      }
+
+    ]
+  }
 ]);
