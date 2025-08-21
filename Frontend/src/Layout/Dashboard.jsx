@@ -13,7 +13,7 @@ function Dashboard() {
                 <aside className='col-span-2 pt-8'>
                     <Menu></Menu>
                 </aside>
-                <section className='col-span-10 pl-8 pt-8 '>
+                <section className='col-span-10 px-1 md:px-8 pt-8 '>
                     <Outlet></Outlet>
                 </section>
             </main>

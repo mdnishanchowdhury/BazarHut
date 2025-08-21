@@ -7,8 +7,9 @@ import Login from "../Page/Login/Login";
 import SignUp from "../Page/SignUp/SignUp";
 import CheckoutPage from "../Page/CheckoutPage/CheckoutPage";
 import Profile from "../Components/Dashboard/Profile";
-import Menu from "../Page/Dashboard/Menu";
 import Dashboard from "../Layout/Dashboard";
+import OrderDetails from "../Page/Dashboard/OrderDetails";
+import Wishlists from "../Components/Dashboard/Wishlists";
 
 export const router = createBrowserRouter([
   {
@@ -54,6 +55,14 @@ export const router = createBrowserRouter([
       {
         path: '/auth',
         element: <Profile></Profile>
+      },
+      {
+        path: '/auth/orderDetails',
+        element: <OrderDetails></OrderDetails>
+      },
+      {
+        path: 'wishlists',
+        element: <Wishlists></Wishlists>
       },
       {
         path: '*',

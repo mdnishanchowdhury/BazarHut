@@ -1,17 +1,15 @@
-import { useContext, useEffect, useState } from "react";
+import {useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { MdOutlineMenu, MdSearch, MdFavorite, MdShoppingCart } from "react-icons/md";
+import { MdOutlineMenu, MdSearch,  MdShoppingCart } from "react-icons/md";
 import Avatar from "../../Components/Navbar/Avatar";
-
 import { useProducts } from "../../Hook/useProducts";
 
-import FavoriteBtn from "../../Components/Navbar/FavoriteStore";
-import useFavoritedCards from "../../Hook/useFavoritedCards";
+import Wishlist from "../../Components/Navbar/Wishlist";
 function Navbar() {
   const linkClass = "text-[15px] font-semibold transition-all duration-300 hover:text-blue-600 hover:translate-y-[-2px]";
   const [isFixed, setFixed] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
-  const [favoritCart] = useFavoritedCards();
+ 
 
 
   // catagories
@@ -75,7 +73,7 @@ function Navbar() {
         <div className="flex items-center gap-4">
           <MdSearch className="w-5 h-5 cursor-pointer" />
 
-          <FavoriteBtn favoritCart={favoritCart}></FavoriteBtn>
+          <Wishlist></Wishlist>
 
           <div className="relative cursor-pointer">
             <MdShoppingCart className="w-5 h-5" />

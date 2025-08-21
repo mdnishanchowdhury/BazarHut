@@ -25,7 +25,7 @@ function Card({ item }) {
 
     useEffect(() => {
         if (favorites) {
-            const alreadyFav = favorites.some(fav => fav.favoritId === _id && fav.email === user?.email);
+            const alreadyFav = favorites.some(fav => fav._id === _id && fav.email === user?.email);
             setIsFavorite(alreadyFav);
         }
     }, [favorites, _id, user]);
@@ -34,9 +34,9 @@ function Card({ item }) {
     const handleCardSave = () => {
         if (!isFavorite) {
             const favorit = {
-                favoritId: _id,
+                _id,
                 email: user.email,
-                name, rating, price, reviewsCount, discount, quantity
+                thumbnail,name, rating, price, reviewsCount, discount, quantity
             };
             axiosPublic.post('/favorites', favorit)
                 .then(() => {
